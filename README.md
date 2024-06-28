@@ -16,9 +16,13 @@ This is where the logic takes place, there are four methods here;
 
 ### controller
 This is the rest controller and is used to run the above methods from a respective api request.
+
 /init-coins -> initCoins
+
 /insert-coin -> insrtCoin
+
 /current-coins -> getcoins
+
 /refund -> refund
 
 ## Install/Run/Test
