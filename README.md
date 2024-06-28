@@ -33,15 +33,19 @@ Unfortunately, I didn’t have time to create a comprehensive test harness. Howe
 The code will run on localhost:8080 and can be interacted with the extensions mentioned within controller, here are some example requests:
 
 `localhost:8080/init-coins?one=10&two=10&five=10&ten=10&twenty=10&fifty=10&pound=10&twoPound=10`
+
 This sets each coin in coin inventory to a quantity of 10.
 
 `localhost:8080/current-coins`
+
 This returns the current coin inventory
 
 `localhost:8080/insert-coin?coin=100`
+
 This inserts a single pound (100) coin into the coin inventory
 
 `localhost:8080/refund?refundAmount=50`
+
 This returns an array of coins to the value of 50p (provided there is enough quantity)
 
 
